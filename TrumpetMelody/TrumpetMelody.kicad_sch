@@ -1646,6 +1646,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 33352d32-d171-4693-90d1-72c4b0f41761)
   )
+  (text "ESD protection" (at 167.64 219.71 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 382873b1-70a4-41d9-9d85-f935109f8bc4)
+  )
   (text "6.1.6 in STM32F11RE Datasheet\nNo bulk caps since they're part of switching regulator"
     (at 16.51 181.61 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1655,6 +1659,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 73f1a1e6-5fe8-453e-8b21-8754e00f125f)
   )
+  (text "ESD protection?" (at 260.35 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 75a7bf4f-0c78-4a82-b3ff-70eecd1aba58)
+  )
   (text "Put programming here" (at 13.97 111.76 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ece9b58-e86b-468f-9347-3a0dd55f60bc)
@@ -1663,6 +1671,16 @@
     (at 19.05 19.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b9c5fec4-1601-4d75-b993-a75519fdc6ec)
+  )
+  (text "please mark out the pins with labels from the cube IDE"
+    (at 129.54 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c28fc540-d962-4b33-b230-1f45b4d50371)
+  )
+  (text "Lowpass RC filter for noise. Also need additional ESD protection."
+    (at 232.41 130.81 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c8d0b949-8364-47d1-971e-f4a0b368ba33)
   )
 
   (global_label "OSC_OUT" (shape input) (at 132.08 118.11 180) (fields_autoplaced)

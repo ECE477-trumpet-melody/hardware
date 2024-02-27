@@ -757,7 +757,7 @@
 
   (footprint "Diode_SMD:D_01005_0402Metric_Pad0.57x0.30mm_HandSolder" (layer "F.Cu")
     (tstamp 339a6e07-2a45-4d34-8814-9a007d1056b3)
-    (at 169.923674 61.597326 45)
+    (at 168.306325 59.227222 45)
     (descr "Diode SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Sheetfile" "TrumpetMelody.kicad_sch")
@@ -5038,7 +5038,9 @@
   (segment (start 195.565896 86.995) (end 196.85 86.995) (width 0.254) (layer "B.Cu") (net 13) (tstamp 53d7b89a-3e32-4bec-b291-86abc314145b))
   (segment (start 194.937948 87.622948) (end 195.565896 86.995) (width 0.254) (layer "B.Cu") (net 13) (tstamp d176692f-371b-4a22-95f5-244f32189adf))
   (segment (start 210.185 69.85) (end 210.185 73.66) (width 0.254) (layer "B.Cu") (net 13) (tstamp efa67682-795a-45e3-b175-1164980dca13))
+  (segment (start 168.544974 58.953798) (end 168.544974 58.988573) (width 0.254) (layer "F.Cu") (net 14) (tstamp 928fcb27-f44c-41b4-88a1-a721057ac7d9))
   (segment (start 172.431572 55.0672) (end 175.4378 55.0672) (width 0.254) (layer "F.Cu") (net 14) (tstamp a805eb65-2b75-477b-ba4e-459c9f4403b8))
+  (segment (start 170.467586 57.031186) (end 168.544974 58.953798) (width 0.254) (layer "F.Cu") (net 14) (tstamp aef2058b-d598-4631-af35-90a5eb2e0725))
   (segment (start 170.467586 57.031186) (end 172.431572 55.0672) (width 0.254) (layer "F.Cu") (net 14) (tstamp dccb41c0-58a8-4dd4-ac5f-a3a78a05fc63))
   (segment (start 172.906777 98.880275) (end 172.906777 101.151777) (width 0.254) (layer "F.Cu") (net 15) (tstamp 09b7882f-9cfd-472e-b90a-64097a139e34))
   (segment (start 163.83 103.505) (end 165.735 101.6) (width 0.254) (layer "F.Cu") (net 15) (tstamp 1b1a0fb1-d430-4389-9ac4-f4f9c2958b8f))

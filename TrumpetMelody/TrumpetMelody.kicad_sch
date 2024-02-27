@@ -5702,31 +5702,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 322.58 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8dd4f36e-4d0c-41df-9d0c-78a7d4914664)
-    (property "Reference" "#PWR019" (at 322.58 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 322.58 132.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 322.58 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 322.58 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid acc4d304-39c4-4b85-82f4-570cd814dc3a))
-    (instances
-      (project "TrumpetMelody"
-        (path "/646bb87a-580f-408c-a344-dec391089cbb"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "TrumpetMelody_Symbol_Library:640456-3") (at 241.3 262.89 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f7e01ab-a3d7-4b57-9ee8-afcebb56f77c)
@@ -7066,6 +7041,31 @@
       (project "TrumpetMelody"
         (path "/646bb87a-580f-408c-a344-dec391089cbb"
           (reference "R14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3VA") (at 322.58 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f0d2d75e-2953-4ff6-9ce6-49f83414ea39)
+    (property "Reference" "#PWR019" (at 322.58 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3VA" (at 322.58 133.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 322.58 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 322.58 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 669a4d4b-a1b3-4eca-ac74-f9a0e78d1076))
+    (instances
+      (project "TrumpetMelody"
+        (path "/646bb87a-580f-408c-a344-dec391089cbb"
+          (reference "#PWR019") (unit 1)
         )
       )
     )

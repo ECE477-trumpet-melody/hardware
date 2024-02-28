@@ -6,13 +6,13 @@
 
   (lib_symbols
     (symbol "Connector:USB_B_Micro" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at -5.08 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Reference" "J1" (at 0 12.7 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "USB_B_Micro" (at -5.08 8.89 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "USB_B_Micro" (at 0 10.16 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 3.81 -1.27 0)
+      (property "Footprint" "TrumpetMelodyFootprintLibrary:TE_2172034-1" (at 3.81 -1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 3.81 -1.27 0)
@@ -149,10 +149,6 @@
         (pin power_out line (at 0 -10.16 90) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 -10.16 90) (length 2.54)
-          (name "Shield" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -3487,13 +3483,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "USB_Shield" (shape input) (at 236.22 105.41 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 857ddf60-85b2-4323-a780-7482f8760839)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 236.22 118.3053 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "PA2" (shape input) (at 181.61 110.49 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8648b029-6bb5-429b-a2d0-1dd654c987f6)
@@ -4200,7 +4189,6 @@
     (pin "3" (uuid 6124a6e2-9fa7-4057-85b1-85ca120fb788))
     (pin "4" (uuid 1d0cdc5d-a6e8-452e-8205-57e1156a03a1))
     (pin "5" (uuid 019a217c-a563-4d22-8b52-28ed9d74049a))
-    (pin "6" (uuid 84ba32c3-b72e-41e4-b9b2-df669425d065))
     (instances
       (project "TrumpetMelody"
         (path "/646bb87a-580f-408c-a344-dec391089cbb"
@@ -4294,10 +4282,10 @@
   (symbol (lib_id "Device:R_US") (at 57.15 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d0af236-52f6-4f92-87f5-8d7124b11256)
-    (property "Reference" "ERJ-6ENF5363V1" (at 59.69 33.02 0)
+    (property "Reference" "ERJ1" (at 59.69 33.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "536k" (at 59.69 35.56 0)
+    (property "Value" "536k" (at 59.69 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 58.166 34.544 90)
@@ -4311,7 +4299,7 @@
     (instances
       (project "TrumpetMelody"
         (path "/646bb87a-580f-408c-a344-dec391089cbb"
-          (reference "ERJ-6ENF5363V1") (unit 1)
+          (reference "ERJ1") (unit 1)
         )
       )
     )
@@ -4320,10 +4308,10 @@
   (symbol (lib_id "Device:C") (at 77.47 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f0429f4-4353-4aaf-95b2-f056a9382531)
-    (property "Reference" "GRM21BR60J226ME39L1" (at 81.28 38.1 0)
+    (property "Reference" "GRM21" (at 81.28 38.735 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22uF" (at 81.28 40.64 0)
+    (property "Value" "22uF" (at 81.28 41.275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 78.4352 43.18 0)
@@ -4337,7 +4325,7 @@
     (instances
       (project "TrumpetMelody"
         (path "/646bb87a-580f-408c-a344-dec391089cbb"
-          (reference "GRM21BR60J226ME39L1") (unit 1)
+          (reference "GRM21") (unit 1)
         )
       )
     )
@@ -4423,10 +4411,10 @@
   (symbol (lib_id "Device:C") (at 15.24 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 312fef0d-2e06-40d1-a444-040f06d1bc51)
-    (property "Reference" "GRM31CR71E106KA12L1" (at 19.05 41.91 0)
+    (property "Reference" "GRM31" (at 19.05 42.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (at 19.05 44.45 0)
+    (property "Value" "10uF" (at 19.05 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 16.2052 46.99 0)
@@ -4440,7 +4428,7 @@
     (instances
       (project "TrumpetMelody"
         (path "/646bb87a-580f-408c-a344-dec391089cbb"
-          (reference "GRM31CR71E106KA12L1") (unit 1)
+          (reference "GRM31") (unit 1)
         )
       )
     )
@@ -4791,10 +4779,10 @@
   (symbol (lib_id "Device:L") (at 50.8 27.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b432885-67e0-4313-ae0a-6fab37db694a)
-    (property "Reference" "LQH5BPN2R2NT0L1" (at 50.8 22.86 90)
+    (property "Reference" "LQH1" (at 50.8 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2.2uH" (at 50.8 25.4 90)
+    (property "Value" "2.2uH" (at 50.8 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Inductor_SMD:L_Murata_LQH55DN_5.7x5.0mm" (at 50.8 27.94 0)
@@ -4808,7 +4796,7 @@
     (instances
       (project "TrumpetMelody"
         (path "/646bb87a-580f-408c-a344-dec391089cbb"
-          (reference "LQH5BPN2R2NT0L1") (unit 1)
+          (reference "LQH1") (unit 1)
         )
       )
     )
@@ -5805,7 +5793,7 @@
     (property "Value" "MAX98357AETE_T" (at 63.5 219.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TrumpetMelodyFootprintLibrary:QFN50P300X300X80-17N" (at 63.5 236.22 0)
+    (property "Footprint" "TrumpetMelodyFootprintLibrary:21-0136I_T1633-4_MXM-M" (at 63.5 236.22 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf" (at 63.5 236.22 0)
@@ -6227,10 +6215,10 @@
   (symbol (lib_id "Device:R_US") (at 57.15 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af96fc2c-2b13-4662-b5a3-55d139e8d418)
-    (property "Reference" "RC1206FR-07120KL1" (at 59.69 46.99 0)
+    (property "Reference" "RC1206" (at 59.69 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120k" (at 59.69 49.53 0)
+    (property "Value" "120k" (at 59.69 50.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (at 58.166 48.514 90)
@@ -6244,7 +6232,7 @@
     (instances
       (project "TrumpetMelody"
         (path "/646bb87a-580f-408c-a344-dec391089cbb"
-          (reference "RC1206FR-07120KL1") (unit 1)
+          (reference "RC1206") (unit 1)
         )
       )
     )

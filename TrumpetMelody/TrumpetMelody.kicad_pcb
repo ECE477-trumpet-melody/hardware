@@ -4920,6 +4920,9 @@
 
   (gr_rect locked (start 147.32 45.72) (end 223.52 114.3)
     (stroke (width 0.2) (type default)) (fill none) (layer "Edge.Cuts") (tstamp f2d00151-c7b3-4275-b0a1-ab19fb25d184))
+  (gr_text "TBD:\n- re rotate the linear potentiometer input: move the entire thing down, route the 3V line above, and adjust as needed\n- via annular ring needs to be larger\n- OD for vias needs to be larger\n- avoid acute angles in traces\n- organize planes to avoid interference for audio signals\n- unused gpio pin size verification\n- maybe a 3.3v power plane instead of trace\n- i think we ignore moving 3.3V ics to the front" (at 72.105 48.87) (layer "F.Cu") (tstamp 05df6397-8749-4f0f-86a7-4777bbd66e15)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+  )
   (gr_text "TMS" (at 185.301178 98.92878 -45) (layer "F.SilkS") (tstamp 0fc330fd-f0fb-43d9-8623-9defa65427ad)
     (effects (font (size 0.635 0.635) (thickness 0.1)) (justify left bottom))
   )

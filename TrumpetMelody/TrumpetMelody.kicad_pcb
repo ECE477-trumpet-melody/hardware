@@ -4906,9 +4906,6 @@
 
   (gr_rect locked (start 147.32 45.72) (end 223.52 114.3)
     (stroke (width 0.2) (type default)) (fill none) (layer "Edge.Cuts") (tstamp f2d00151-c7b3-4275-b0a1-ab19fb25d184))
-  (gr_text "TBD:\n- is there a way to fully disregard the {dblquote}disconnected vias{dblquote} aka the\nstuff we decided to just throw out to a via for funsies? i moved to \nexcluded violations but the arrows are still there and being annoying\n- organize planes to avoid interference for audio signals\n\nnot sure if needed:\n- maybe a 3.3v power plane instead of traces on the top \n- i think we ignore moving 3.3V ics to the front\n\ni also need someone else to look thru the whole schematic to verify \nno acute angles. i see none but someone wrote a comment about it so \neither i am blind or it was just general advice. pls help." (at 146.105 148.87) (layer "F.Cu") (tstamp 05df6397-8749-4f0f-86a7-4777bbd66e15)
-    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
-  )
   (gr_text "TMS" (at 185.301178 98.92878 315) (layer "F.SilkS") (tstamp 0fc330fd-f0fb-43d9-8623-9defa65427ad)
     (effects (font (size 1.016 0.635) (thickness 0.1524) bold) (justify left bottom))
   )
@@ -4918,7 +4915,7 @@
   (gr_text "NJTRST" (at 191.241426 90.528924 315) (layer "F.SilkS") (tstamp 37c0ab5e-7372-4c37-876a-e22f5da0f24f)
     (effects (font (size 1.016 0.635) (thickness 0.1524) bold) (justify left bottom))
   )
-  (gr_text "ECE477 Team 15 Trumpet Melody\nCW CG SE KC - Rev. 1.0" (at 158.355 113.62) (layer "F.SilkS") (tstamp 7d23ca01-f877-44ed-a49f-7b1683730728)
+  (gr_text "ECE477 Team 15 Trumpet Melody\nCW CG SE KC - Rev. 1.1f" (at 158.355 113.62) (layer "F.SilkS") (tstamp 7d23ca01-f877-44ed-a49f-7b1683730728)
     (effects (font (size 1.016 1) (thickness 0.1524)) (justify left bottom))
   )
   (gr_text "S" (at 189.490175 96.238835 -45) (layer "F.SilkS") (tstamp a2ab5ffd-9c3a-4acb-9915-e36ec0930944)
